@@ -1,0 +1,296 @@
+/* 首页
+----------------------------------------------- */ 
+
+body,h2,h3,h4,h5,h6,p,div,ul,dl,ol,li,dt,dd{
+	margin:  0;
+	padding:  0;
+	font-size: 12px;
+	font-family: microsoft "yahei";
+	list-style: none;
+/* 	color: #bbb; */
+}
+a{
+	 text-decoration: none;
+	 color: #999;
+}
+a:hover{
+    color: #EE2222;
+}
+input,img{
+	 margin:  0;
+	 padding:  0;
+	 border:  0 none;
+	 outline-style: none;
+}
+
+.clearfix:before,.clearfix:after{
+	 content: "";
+	 display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color:#efefef; 
+}
+.head{
+	height: 110px;
+    background-color: #efefef;
+}
+.top{
+	width: 1000px;
+	margin:0 auto;
+}
+.top img{
+	margin-top: 20px;
+}
+.top p{
+	float:right;
+	margin-top: 50px;
+	font-size: 20px;
+}
+.top a{
+	color: red;
+}
+.main{
+	width: 1000px;
+	height: 882px;
+	background-color: #fff;
+	margin:0 auto;
+}
+.zhuce{
+	width: 560px;
+	height: 686px;
+	margin:0 auto;
+}
+.zhuce label{
+	display:inline-block;
+	width:110px;
+	color:#333;
+	font-size: 14px;
+	margin-right: 5px;
+	text-align: right;
+}
+.maintop{
+	margin-left: 114px;
+  position: relative;
+  height: 125px;	
+}
+.maintop a{
+	display:inline-block;
+	width: 162px;
+	height: 38px;
+	margin: 50px 0px;
+	font-size: 16px;
+	line-height: 38px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.zhuce .putong{
+    background-color: #ca5252;
+    color:#fff;
+}
+.zhuce .liang{
+	border-left:none;
+	color:#333;
+}
+.zhuce .maintop p{
+	position: absolute;	
+	font-size: 6px;
+	display: inline-block;
+	 height: 12px;
+	 line-height: 12px;
+	 background-color: #ca5252;
+	right:124px;
+	color:#fff;
+	top:49px; 
+}
+.mainmiddle input{
+	width: 320px;
+	height: 44px;
+    border:1px solid #ccc;
+    line-height: 44px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+.mima{
+	height: 55px;
+}
+.zhong {
+	font-size: 10px;
+	text-align: left;
+	padding-left: 90px;
+	margin-bottom: 15px;
+	margin-left: 26px;
+}
+.queren{
+   margin-top:10px;
+}
+ .pass-wrap .em{
+ 	margin-left: 60px;
+ }
+ .pass-wrap #strengthLevel{
+    margin-left: 120px;
+ }
+.strengthLv0 {
+    height: 6px;
+    width: 120px;
+    /* border: 1px solid #ccc; */
+    padding: 2px;
+  }
+  
+  .strengthLv1 {
+    background: red;
+    height: 6px;
+    width: 40px;
+    /* border: 1px solid #ccc; */
+    padding: 2px;
+  }
+  
+  .strengthLv2 {
+    background: orange;
+    height: 6px;
+    width: 80px;
+    /* border: 1px solid #ccc; */
+    padding: 2px;
+  }
+  
+  .strengthLv3 {
+    background: green;
+    height: 6px;
+    width: 120px;
+    /* border: 1px solid #ccc; */
+    padding: 2px;
+  }
+
+.yanzheng input{
+   border-radius: 20px;
+}
+
+.zhong p{
+	margin-bottom: 5px;
+	color:#74d0ff;
+}
+.yanzheng{
+	width: 700px;
+	position: relative;
+}
+.yanzheng #code{
+	width: 100px;
+	height: 44px;
+	position: absolute;
+	left:450px;
+	top:0;
+	/* display: none; */
+}
+.yanzheng #recheck{
+	position: absolute;
+	left:550px;
+	top:16px;
+}
+.yanzheng #jiancha{
+	width: 20px;
+	height: 44px;
+}
+.yanzhengma{
+	width:600px;
+}
+ .yanzhengma input{
+
+ 	width: 185px;
+	height: 44px;
+    border:1px solid #ccc;
+    text-align: left;
+    line-height: 44px;
+     padding-left: 5px;
+ }
+
+.yanzhengma #button{
+	display: inline-block;;
+	width: 118px;
+	height: 46px;
+	line-height: 44px;
+	text-align: center;
+	color:#fff;
+	font-size: 14px;
+	background-color: #74d0ff;
+	margin-left: 10px;
+	cursor: pointer;
+
+}
+#time {
+	float: right;
+	margin-right: 70px;
+	width: 80px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 12px;
+	color:#333;
+	background-color: #ccc;
+	display: none;	
+}
+.shouji{
+	height: 50px;
+}
+.zhuce .hong{
+	margin-left: 114px;
+}
+.zhuce .hong a{
+	display: inline-block;;
+	width: 320px; 
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #df9797;
+	color:#fff;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.zhuce .hong a:active{
+	color:#ca5252;
+}
+.zhuce .xieyi p{
+	width: 320px;
+	padding-left:100px;
+    font-size: 10px;
+    text-align: center;
+}
+.main .blue{
+	max-resolution: 4px;0px auto;
+	margin-left:50px ;
+}
+.bottom{
+	width: 580px;
+	height: 38px;
+	margin:28px auto;
+	text-align: center;
+}
+.bottom p{
+     margin-top: 8px;
+}
+.mainmiddle i{
+    display: inline !important; 
+	width:25px;
+     margin-left: 5px;
+    font-size: 10px;
+    } 
+ .hide {
+      display: none;
+    }
+    
+ .show {
+      display: block;
+    }
+  .wrong {
+    color: red
+  }
+  
+  .right {
+    color: green;
+  }
+/* 首页
+-----------------------------------------------

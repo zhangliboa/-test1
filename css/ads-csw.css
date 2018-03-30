@@ -1,0 +1,599 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.top {
+    height: 980px;
+    width: 100%;
+    background-image: url(../images/kv_22e9cbd.jpg);
+}
+
+.top_nav {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    opacity: 0.9;
+    z-index: 999;
+}
+
+.left_nav {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.left_nav p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #45507c;
+}
+
+.left_nav span {
+    font-size: 20px;
+    color: #5f6a90;
+}
+
+.top_nav_right ul li {
+    float: left;
+    height: 78px;
+    line-height: 80px;
+    padding: 0 20px;
+}
+
+.top_nav_right ul li:nth-child(even) a {
+    color: #cad1e1;
+}
+
+.top_nav_right ul li:nth-child(even) {
+    padding: 0;
+}
+
+.top_nav_right ul li:last-child {
+    padding-right: 0;
+}
+
+.top_nav_right ul li:hover {
+    border-bottom: 3px solid #f7bb2a;
+}
+
+.top_nav_right ul li:hover a {
+    color: #f7bb2a;
+}
+
+.top_nav_right li a {
+    font-size: 16px;
+    color: #45507c;
+}
+
+.top_nav_left img {
+    height: 98px;
+    margin-top: 10px;
+}
+
+.top_img {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.banner_img {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.banner_img p {
+    font-size: 24px;
+    color: #3b4f9b;
+    font-weight: 700;
+}
+
+.banner_img .tit {
+    margin-top: -40px;
+}
+
+.banner_img .tit1 {
+    margin-top: -105px;
+}
+
+.banner_img .tit2 {
+    margin-top: -53px;
+    cursor: pointer;
+}
+
+.banner_img .tit2 img {
+    transition: 5000000000s;
+    transform-origin: center center;
+}
+
+body:hover .banner_img .tit2 img {
+    transform: rotate(3600000000000deg);
+}
+
+
+/*中间下载链接的二维码*/
+
+.download_img {
+    height: 165px;
+    width: 290px;
+    margin: 100px auto;
+}
+
+.foot_img1 img {
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.foot_img2 img {
+    width: 170px;
+    height: 55px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.foot_img3 img {
+    width: 170px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.foot_img4 {
+    width: 290px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.main {
+    height: 2200px;
+    background-image: url(../images/bg_e108c9e.jpg);
+}
+
+
+/*最新资讯部分*/
+
+.top_main {
+    height: 607px;
+}
+
+.w-1070 {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.top_main_title {
+    width: 350px;
+    height: 135px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top_main_title img {
+    margin-top: 50px;
+}
+
+.top_main_title p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 45px;
+    left: 140px;
+}
+
+
+/*左边图片*/
+
+.top_main_left {
+    width: 320px;
+    height: 385px;
+    position: relative;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.top_main_left ul {}
+
+.top_main_left ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.top_main_left>div {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.top_main_left .square1 {
+    right: 65px;
+    bottom: 10px;
+}
+
+.top_main_left .square2 {
+    right: 45px;
+    bottom: 10px;
+}
+
+.top_main_left .square3 {
+    right: 25px;
+    bottom: 10px;
+}
+
+
+/*右边tab栏*/
+
+.top_main_right {
+    height: 383px;
+    width: 725px;
+}
+
+.top_main_right .hd {
+    width: 489px;
+    height: 34px;
+}
+
+.top_main_right .hd ul li {
+    width: 90px;
+    height: 32px;
+    line-height: 34px;
+    background-color: #324070;
+    text-align: center;
+    margin-right: 1px;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.top_main_right .hd ul li:hover {
+    background-color: #fbe829;
+    color: #2b3762;
+}
+
+.top_main_right .hd ul li:last-child {
+    width: 32px;
+    height: 32px;
+}
+
+.top_main_right li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.top_main_right .fd {
+    margin-top: 50px;
+}
+
+.top_main_right .fd ul {
+    width: 724px;
+    height: 273px;
+}
+
+.top_main_right .fd ul li {
+    margin-right: 1px;
+    margin-bottom: 17px;
+    float: left;
+    height: 128px;
+    width: 240px;
+    background-color: #3b4b84;
+}
+
+.top_main_right .news_time {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 10px;
+    height: 40px;
+    line-height: 45px;
+    width: 220px;
+    border-bottom: 2px solid #49588d;
+}
+
+.top_main_right .news_in {
+    display: inline-block;
+    width: 215px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.right_main_bottom p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: -38px;
+    margin-left: 45px;
+}
+
+
+
+
+
+/*游戏特色部分*/
+
+.body_main_title {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.body_main_title p {
+    color: #354683;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+
+.body_main .wrap {
+    width: 1200px;
+    margin: 60px auto 200px;
+}
+
+.body_main .wrap .slide {
+    height: 500px;
+    position: relative;
+}
+
+.body_main .wrap .slide li {
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.body_main .wrap .slide li img {
+    width: 100%;
+}
+
+.body_main .wrap .arrow {
+    opacity: 0;
+    position: absolute;
+    top: 200px;
+    z-index: 998;
+}
+
+.body_main .wrap .arrow .next {
+    left: 1120px;
+}
+
+.body_main .wrap .prev,
+.next {
+    display: block;
+    width: 35px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    margin-top: -56px;
+    background: url(../images/prev_09a7272.png) no-repeat;
+    background-color: #333;
+    z-index: 99;
+}
+
+.body_main .wrap .next {
+    right: 0;
+    background-image: url(../images/next_d22c01a.png);
+}
+
+.body_main .wrap .next a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+
+
+
+
+.body_main {
+    height: 806px;
+}
+
+
+/*终结者大地图部分*/
+
+
+/*.bottom_main {*/
+
+
+/*height: 700px;*/
+
+
+/*}*/
+
+
+/*.bottom_main_title {*/
+
+
+/*width: 370px;*/
+
+
+/*height: 120px;*/
+
+
+/*margin: -100px auto 0;*/
+
+
+/*position: relative;*/
+
+
+/*top: -100px;*/
+
+
+/*}*/
+
+
+/*.bottom_main_title img {*/
+
+
+/*margin-top: 50px;*/
+
+
+/*}*/
+
+
+/*.bottom_main_title p {*/
+
+
+/*font-size: 24px;*/
+
+
+/*color: #fff;*/
+
+
+/*font-weight: 700;*/
+
+
+/*position: absolute;*/
+
+
+/*top: 45px;*/
+
+
+/*left: 112px;*/
+
+
+/*}*/
+
+
+/*.bottom_main_map {*/
+
+
+/*width: 1100px;*/
+
+
+/*margin: 0 auto;*/
+
+
+/*position: relative;*/
+
+
+/*left: -50px;*/
+
+
+/*bottom: 50px;*/
+
+
+/*}*/
+
+
+/*底部logo*/
+
+.foot_main {
+    margin-top: -40px;
+    height: 75px;
+    background-color: #fff;
+}
+
+.foot_main .footer {
+    margin-left: 100px;
+}
+
+
+
+/*浏览器窗口右侧固定部分*/
+
+.fix {
+    position: fixed;
+    right: 0;
+    top: 320px;
+}
+
+.fix .ewm1 {
+    border-radius: 10px;
+    height: 135px;
+    width: 120px;
+    background-color: #fbea10;
+}
+
+.fix .ewm1 img {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.fix .ewm1 p {
+    font-size: 12px;
+}
+
+.fix .ewm2 {
+    height: 150px;
+    width: 120px;
+    cursor: pointer;
+}
+
+
+.video-box {
+    background-color: rgba(0, 0, 0, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 1000;
+}
+
+.video-box video {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.video-box .v-close {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.video-box .v-close:hover {
+    transform: rotate(360deg);
+}
+
+.video-txt-box{
+	/*background:pink;*/
+	width: 80%;
+	height: 550px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-55%);
+	overflow: hidden;
+}
+
+.video-box .v-txt{
+	background-color: rgba(255,255,255,0.8);
+	padding: 2px 4px;
+	border-radius: 10px;
+	position: absolute;
+	right: -100px;
+	white-space: nowrap;
+}
+
+.close-txt-box{
+	position: absolute;
+    padding: 10px 20px;
+    right: 0;
+    color: #333;
+    background: #fff;
+    border-radius: 10px 0 0 10px;
+    bottom: 20px;
+    cursor: pointer;
+}

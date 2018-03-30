@@ -1,0 +1,76 @@
+/* 全局样式
+ *
+ *页面文字基础字体为14px，文字颜色为#666
+ *输入框边框为none
+ *固定宽度暂时设置1200 （登陆注册页为980）
+ *统一类名如下：
+ *页面元素隐藏.hide
+ *左浮动使用.fl
+ *右浮动使用.fr
+ *清除浮动 .clearfix
+----------------------------------------------- */
+html,body{
+	font-size: 14px;
+	color: #666;
+}
+a,div,h1, h2, h3, h4, h5, h6, header, html,img, ins, nav, ol, p,section,span, table, tbody, td, tfoot, th, thead,
+ tr, tt, u, ul,body,dl,dt,dd,input{
+	border:0;
+	margin: 0;
+	padding: 0;	
+}
+
+ul,li{
+	list-style: none;
+}
+
+a:link{
+	text-decoration: none;
+	color:#666;
+}
+
+a:visited{
+	color: #333;
+}
+
+input{
+	outline: none;
+}
+.clearfix:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+/*IE兼容*/
+.clearfix{
+	zoom: 1;
+}
+
+/*固定宽度*/
+.w-1200{
+	margin: 0 auto;
+	width: 90%;
+}
+.w-980{
+	margin: 0 auto;
+	width: 980px;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.hide{
+	display: none;
+}
+
+/* 全局样式
+----------------------------------------------- */

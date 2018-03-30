@@ -1,0 +1,274 @@
+/* 顶部
+----------------------------------------------- */
+.top {
+    height:50px;
+}
+.top .shu {
+    height:26px;
+    width:1px;
+    margin:12px 22px 0px 22px;
+    background-color:#dfdfdf;
+}
+.top span {
+    font-size: 20px;
+    font-weight:normal;
+    color:#323232;
+    position:relative;
+    top:10px;
+}
+
+/*版心*/
+/*-----------------------------------------------*/
+.banner {
+    height:562px;
+    /*background-image:url("../picture/bg (2).jpg");*/
+    background-size: contain;
+    background-position: right;
+    position:relative;
+}
+.banner>ul:first-child {
+    position:relative;
+    height:562px;
+}
+.banner>ul:first-child>li img{
+    height:562px;
+    width:1348px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.banner>ul:first-child>li {
+    width:500px;
+    background-color: pink;
+    heigth:562px;
+}
+.banner>img:nth-child(2) {
+    position:absolute;
+    top:150px;
+    left:150px;
+}
+.banner>img:nth-child(3) {
+    height:400px;
+    position:absolute;
+    top:90px;
+    left:300px;
+}
+.banner .login {
+    width:400px;
+    height:450px;
+    background-color:rgba(0,255,255,0.3);
+    position:absolute;
+    top:55px;
+    left:800px;
+}
+.banner .login .wydl {
+    display:inline-block;
+    border-right:solid 2px rgba(0,255,255,0.3);
+    width:199px;
+    height:50px;
+    background-color: rgba(255,192,203,0.6);
+    font-family:"楷体";
+    font-size: 20px;
+    text-align:center;
+    line-height:50px;
+    color:rgb(250,250,250);
+    vertical-align:middle;
+}
+.banner .login .wydl:hover {
+    background-color: rgba(255,192,203,0.9);
+}
+.banner .login .erweima {
+    display:inline-block;
+    border-left:solid 2px rgba(0,255,255,0.3);
+    margin-left: -2px;
+    width:199px;
+    height:50px;
+    background-color: rgba(255, 192, 203, 0.6);
+    font-family:"楷体";
+    font-size: 20px;
+    text-align:center;
+    line-height:50px;
+    color:rgb(250,250,250);
+    vertical-align:middle;
+}
+.banner .login .erweima:hover {
+    background-color: rgba(255,192,203,0.9);
+}
+.banner #wy>div:first-child input {
+    height:40px;
+    width:220px;
+    margin: 40px 0px 30px 66px;
+    padding-left:50px;
+}
+.banner #wy>div:nth-child(2) input {
+    height:40px;
+    width:220px;
+    margin: 15px 0px 30px 66px;
+    padding-left:50px;
+}
+.banner #wy div1{
+    height:20px;
+    width:22px;
+    background: url("../images/picture/jlt.png") -251px -89px;
+    position:absolute;
+    top:100px;
+    left:77px;
+}
+.banner #wy div2{
+    height:20px;
+    width:22px;
+    background: url("../images/picture/jlt.png") -292px -89px;
+    position:absolute;
+    top:186px;
+    left:77px;
+}
+.banner #wy #yz>input {
+    height:40px;
+    width:120px;
+    margin: 10px 0px 30px 66px;
+    padding-left:10px;
+    vertical-align:middle;
+}
+.banner #wy #yz #number {
+    height:40px;
+    width:120px;
+    background-color: white;
+    display:inline-block;
+    margin: 10px 0px 30px 20px;
+    vertical-align:middle;
+}
+.banner #wy>input {
+    width:200px;
+    height:40px;
+    margin-left: 96px;
+    cursor:pointer;
+    background-color: rgba(255, 192, 203, 0.9);
+    color:rgb(250,250,250);
+    text-shadow:1px 1px 1px;
+    font:bold 24px "楷体";
+}
+.banner #er {
+    display:none;
+    position:relative;
+}
+.banner #er img {
+    position:absolute;
+    top:108px;
+    left:108px;
+}
+.banner #er p {
+    font:bold 16px "楷体";
+    color:white;
+    position:absolute;
+    top:50px;
+    left:20px;
+}
+.banner .login #common {
+    /*position:absolute;*/
+    /*width:200px;*/
+    /*height:24px;*/
+}
+.banner .login #common span {
+    position:absolute;
+    bottom:22px;
+    left:30px;
+}
+.banner .login #common #qq {
+    width:17px;
+    height:19px;
+    background: url("../images/picture/jlt.png") -143px -144px;
+    position:absolute;
+    right:133px;
+    bottom:24px;
+    cursor:pointer;
+}
+.banner .login #common #wx {
+    width:22px;
+    height:18px;
+    background: url("../images/picture/jlt.png") -296px -144px;
+    position:absolute;
+    right:88px;
+    bottom:24px;
+    cursor:pointer;
+}
+.banner .login #common #wb {
+    width:23px;
+    height:18px;
+    background: url("../images/picture/jlt.png") -1px -144px;
+    position:absolute;
+    right:44px;
+    bottom:24px;
+    cursor:pointer;
+}
+    /*底部*/
+/*------------------------------------------------*/
+.bottom {
+    height:260px;
+    position:relative;
+}
+.bottom>ul>li:nth-child(1) {
+    width:212px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    left:50px;
+    background: url("../images/picture/login.png") -183px -614px;
+    cursor:pointer;
+}
+.bottom>ul>li:nth-child(2) {
+    width:175px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    left:330px;
+    background: url("../images/picture/login.png") -420px -614px;
+    cursor:pointer;
+}
+.bottom>ul>li:nth-child(3) {
+    width:187px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    right:573px;
+    background: url("../images/picture/login.png") -602px -614px;
+    cursor:pointer;
+}
+.bottom>ul>li:nth-child(4) {
+    width:195px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    right:290px;
+    background: url(../images/picture/login.png) -796px -614px;
+    cursor:pointer;
+}
+.bottom>ul>li:nth-child(5) {
+    width:175px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    right:50px;
+    background: url(../images/picture/login.png) -998px -614px;
+    cursor:pointer;
+}
+.bottom>div {
+    width:555px;
+    height:35px;
+    position:absolute;
+    top:169px;
+    left:400px;
+    background: url(../images/picture/login.png) -405px -746px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 首页
+----------------------------------------------- */

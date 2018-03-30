@@ -1,0 +1,62 @@
+/*
+* @Author: 24454
+* @Date:   2017-11-09 21:08:00
+* @Last Modified by:   24454
+* @Last Modified time: 2017-11-12 21:58:30
+*/
+.wrap{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+h1{
+	text-align: center;
+	width: 1300px;
+}
+.body{
+	width: 1600px;
+}
+.top{
+	width: 1600px;
+	height: 70px;
+	background-color: #333;
+}
+.top .four{
+	float:right;
+	margin-top: 25px;
+}
+.top img{
+	margin-left: 250px;
+	margin-top: 10px;
+}
+.four{
+	margin-right: 300px;
+}
+.four a{
+	margin-left: 15px;
+}
+.middle{
+	width: 1600px;
+	height: 300px;
+	background:url(../images/bgimg.png) no-repeat center  ;
+}
+.middle2{
+	width: 500px;
+	height: 200px;
+}
+.middle2 img{
+	margin:30px 370px;
+
+}
+.bottom{
+	width: 1600px;
+	height: 1000px;
+	background-color: #ccc;
+}
+.bottom img{
+	margin: 100px 0 60px 50px;
+}
+.bottom p{
+	margin-top: 30px;
+	margin-left: 700px;
+}

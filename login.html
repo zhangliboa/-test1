@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>登录首页</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/login.css">
+        <script src="script/jq.js"></script>
+        <script src="script/common.js"></script>
+        <script src="script/login.js"></script>
+        <script>
+            window.onload = function () {
+//                验证框随机数出现
+                var nb = document.getElementById("number");
+                nb.innerText = Math.floor(Math.random()*10)+" "+Math.floor(Math.random()*10)+" "+Math.floor(Math.random()*10)+" "+Math.floor(Math.random()*10);
+                nb.style.textAlign = "center";
+                nb.style.font = "20px/38px bold"
+                nb.style.color = "hotpink";
+//                验证框placeholder清空
+                var yzk = document.getElementById("yzk");
+                yzk.onfocus = function () {
+                    if (this.placeholder == " 请 输 入 验 证 码"){
+                        this.placeholder = "";
+                    }
+                }
+                yzk.onblur = function () {
+                    if (this.placeholder == "") {
+                        this.placeholder = " 请 输 入 验 证 码";
+                    }
+                }
+
+//                登陆框placeholder清空
+                var ipt1 = document.getElementById("ipt1");
+                var ipt2 = document.getElementById("ipt2");
+                ipt1.onfocus = function () {
+                    if (this.placeholder == "           请 输 入 用 户 名")  {
+                        this.placeholder = "";
+                    }
+                }
+                ipt1.onblur = function () {
+                    if (this.placeholder == "") {
+                        this.placeholder = "           请 输 入 用 户 名";
+                    }
+                }
+                ipt2.onfocus = function () {
+                    if (this.placeholder == "             请 输 入 密 码")  {
+                        this.placeholder = "";
+                    }
+                }
+                ipt2.onblur = function () {
+                    if (this.placeholder == "") {
+                        this.placeholder = "             请 输 入 密 码";
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+    	<div class="w-980">
+    		<div class="top">
+    			<a href="index.html"><img class="fl" src="images/picture/logo.png" alt=""></a>
+                <div class="shu fl"></div>
+                <span>网易和风匠心巨制</span>
+    		</div>
+    	</div>
+        <div class="banner">
+            <ul>
+                <li><img src="images/picture/bg%20(1).jpg" alt=""/></li>
+                <li><img src="images/picture/bg%20(7).jpg" alt=""/></li>
+                <li><img src="images/picture/bg%20(2).jpg" alt=""/></li>
+                <li><img src="images/picture/bg%20(5).jpg" alt=""/></li>
+                <li><img src="images/picture/bg%20(6).jpg" alt=""/></li>
+            </ul>
+            <img src="images/picture/yyslogo.png" alt=""/>
+            <img src="images/picture/dglh.png" alt=""/>
+            <div class="login">
+                <a href="#"><div id="btn1" class="wydl">网易登录</div></a><a href="#"><div id="btn2" class="erweima">二维码登录</div></a>
+                <div id="wy">
+                    <div><div1></div1><input id="ipt1" type="text" placeholder="           请 输 入 用 户 名"/></div>
+                    <div><div2></div2><input id="ipt2" type="password" placeholder="             请 输 入 密 码"/></div>
+                    <div id="yz"><input id="yzk" type="text" placeholder=" 请 输 入 验 证 码"/><div id="number"></div></div>
+                    <input id="dl " type="submit" value="登   录"/>
+                </div>
+                <div id="er">
+                    <p>使用 网易账号管家 或 邮箱大师 扫一扫快速登录</p>
+                    <img src="images/picture/getUrlQrcode.jpg" alt=""/>
+                </div>
+                <div id="common">
+                    <span><a href="regidter.html"> 注册账号 </a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="javascript:;"> 忘记密码 </a></span>
+                    <div id="qq"></div><div id="wx"></div><div id="wb"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <ul><li></li><li></li><li></li><li></li><li></li></ul>
+            <div></div>
+        </div>
+    </body>
+</html>
